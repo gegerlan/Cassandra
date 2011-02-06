@@ -1,0 +1,673 @@
+--- 
+root: 
+- 
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: restores 500 HP of one character.
+  element_set: []
+
+  hp_recovery: 500
+  hp_recovery_rate: 0
+  icon_index: 64
+  id: 1
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Potion
+  note: ""
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 50
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: restores 2500 HP of one character.
+  element_set: []
+
+  hp_recovery: 2500
+  hp_recovery_rate: 0
+  icon_index: 64
+  id: 2
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: High potion
+  note: ""
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 150
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: restores all HP of one character.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 100
+  icon_index: 64
+  id: 3
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Full potion
+  note: ""
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 450
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 38
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: restores 200 MP of one character.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 65
+  id: 4
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 200
+  mp_recovery_rate: 0
+  name: Magic water
+  note: ""
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 300
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 42
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: revives one character from KO.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 66
+  id: 5
+  ignore_defense: false
+  minus_state_set: 
+  - 1
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Stimulant
+  note: ""
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 250
+  scope: 9
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 40
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Cure poison.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 66
+  id: 6
+  ignore_defense: false
+  minus_state_set: 
+  - 2
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Antidote
+  note: ""
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 30
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 41
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: cures all status abnormalities.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 66
+  id: 7
+  ignore_defense: false
+  minus_state_set: 
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Dispel herb
+  note: ""
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 90
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 39
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Restores all HP and MP of one character.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 100
+  icon_index: 69
+  id: 8
+  ignore_defense: false
+  minus_state_set: 
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  mp_recovery: 0
+  mp_recovery_rate: 100
+  name: Elixir
+  note: ""
+  occasion: 0
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 1000
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 0
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Increase Max HP by 50.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 71
+  id: 9
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Life up
+  note: ""
+  occasion: 2
+  parameter_points: 50
+  parameter_type: 1
+  physical_attack: false
+  plus_state_set: []
+
+  price: 200
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 0
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Increase Max MP by 10.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 71
+  id: 10
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Mana up
+  note: ""
+  occasion: 2
+  parameter_points: 10
+  parameter_type: 2
+  physical_attack: false
+  plus_state_set: []
+
+  price: 200
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 0
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Increase Attack Power by 3.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 71
+  id: 11
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Power up
+  note: ""
+  occasion: 2
+  parameter_points: 3
+  parameter_type: 3
+  physical_attack: false
+  plus_state_set: []
+
+  price: 200
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 0
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Increase Defensive Power by 3.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 71
+  id: 12
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Guard up
+  note: ""
+  occasion: 2
+  parameter_points: 3
+  parameter_type: 4
+  physical_attack: false
+  plus_state_set: []
+
+  price: 200
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 0
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Increase Mental Power by 3.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 71
+  id: 13
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Mind up
+  note: ""
+  occasion: 2
+  parameter_points: 3
+  parameter_type: 5
+  physical_attack: false
+  plus_state_set: []
+
+  price: 200
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 0
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Increase Agility by 3.
+  element_set: []
+
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 71
+  id: 14
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Speed up
+  note: ""
+  occasion: 2
+  parameter_points: 3
+  parameter_type: 6
+  physical_attack: false
+  plus_state_set: []
+
+  price: 200
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 0
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 57
+  atk_f: 0
+  base_damage: 150
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Deals fire damage to one enemy.
+  element_set: 
+  - 9
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 150
+  id: 15
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Fire scroll
+  note: ""
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 300
+  scope: 1
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 59
+  atk_f: 0
+  base_damage: 150
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Deals fire damage to all enemies.
+  element_set: 
+  - 9
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 150
+  id: 16
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Flame scroll
+  note: ""
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 600
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 61
+  atk_f: 0
+  base_damage: 150
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Deals ice damage to one enemy.
+  element_set: 
+  - 10
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 150
+  id: 17
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Ice scroll
+  note: ""
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 300
+  scope: 1
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 63
+  atk_f: 0
+  base_damage: 150
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Deals ice damage to all enemies.
+  element_set: 
+  - 10
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 150
+  id: 18
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Blizzard scroll
+  note: ""
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 600
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 65
+  atk_f: 0
+  base_damage: 200
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Deals lightning damage to one enemy.
+  element_set: 
+  - 11
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 150
+  id: 19
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Thunder scroll
+  note: ""
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 300
+  scope: 1
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Item 
+  absorb_damage: false
+  animation_id: 67
+  atk_f: 0
+  base_damage: 200
+  common_event_id: 0
+  consumable: true
+  damage_to_mp: false
+  description: Deals lightning damage to all enemies.
+  element_set: 
+  - 11
+  hp_recovery: 0
+  hp_recovery_rate: 0
+  icon_index: 150
+  id: 20
+  ignore_defense: false
+  minus_state_set: []
+
+  mp_recovery: 0
+  mp_recovery_rate: 0
+  name: Spark scroll
+  note: ""
+  occasion: 1
+  parameter_points: 0
+  parameter_type: 0
+  physical_attack: false
+  plus_state_set: []
+
+  price: 600
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20

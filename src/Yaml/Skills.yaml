@@ -1,0 +1,2388 @@
+--- 
+root: 
+- 
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: -1
+  atk_f: 100
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Damage a single enemy multiple times.
+  element_set: []
+
+  hit: 100
+  icon_index: 132
+  id: 1
+  ignore_defense: false
+  message1: " attacks!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Dual Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: []
+
+  scope: 3
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: -1
+  atk_f: 100
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Damage 2 enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 132
+  id: 2
+  ignore_defense: false
+  message1: " attacks!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Double Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: []
+
+  scope: 5
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: -1
+  atk_f: 100
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Damage 3 enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 132
+  id: 3
+  ignore_defense: false
+  message1: " attacks!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Triple Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: []
+
+  scope: 6
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: -1
+  atk_f: 100
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Adds Poison status to your physical attack.
+  element_set: []
+
+  hit: 100
+  icon_index: 132
+  id: 4
+  ignore_defense: false
+  message1: " attacks!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Poison Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: 
+  - 2
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: -1
+  atk_f: 100
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Adds Darkness status to your physical attack.
+  element_set: []
+
+  hit: 100
+  icon_index: 132
+  id: 5
+  ignore_defense: false
+  message1: " attacks!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Darkness Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: 
+  - 3
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: -1
+  atk_f: 100
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Adds Confusion status to your physical attack.
+  element_set: []
+
+  hit: 100
+  icon_index: 132
+  id: 6
+  ignore_defense: false
+  message1: " attacks!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Confusion Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: 
+  - 5
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: -1
+  atk_f: 100
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Adds Sleep status to your physical attack.
+  element_set: []
+
+  hit: 100
+  icon_index: 132
+  id: 7
+  ignore_defense: false
+  message1: " attacks!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Sleep Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: 
+  - 6
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: -1
+  atk_f: 100
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Adds paralyze status to your physical attack.
+  element_set: []
+
+  hit: 100
+  icon_index: 132
+  id: 8
+  ignore_defense: false
+  message1: " attacks!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Paralysis Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: 
+  - 7
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 25
+  atk_f: 50
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals fire damage to all enemies.
+  element_set: 
+  - 9
+  hit: 100
+  icon_index: 104
+  id: 9
+  ignore_defense: false
+  message1: " blows the Flame Breath!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Flame Breath
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 26
+  atk_f: 50
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals ice damage to all enemies.
+  element_set: 
+  - 10
+  hit: 100
+  icon_index: 105
+  id: 10
+  ignore_defense: false
+  message1: " blows the Ice Breath!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Ice Breath
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 27
+  atk_f: 50
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals lightning damage to all enemies.
+  element_set: 
+  - 11
+  hit: 100
+  icon_index: 106
+  id: 11
+  ignore_defense: false
+  message1: " generates Electric!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Electric
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 70
+  atk_f: 50
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals water damage to all enemies.
+  element_set: 
+  - 12
+  hit: 100
+  icon_index: 107
+  id: 12
+  ignore_defense: false
+  message1: " causes Tidal wave!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Tidal wave
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 72
+  atk_f: 50
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals earth damage to all enemies.
+  element_set: 
+  - 13
+  hit: 100
+  icon_index: 108
+  id: 13
+  ignore_defense: false
+  message1: " causes Gravel!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Gravel
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 74
+  atk_f: 50
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals wind damage to all enemies.
+  element_set: 
+  - 14
+  hit: 100
+  icon_index: 109
+  id: 14
+  ignore_defense: false
+  message1: " blows Sickle Weasel !"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Sickle Weasel
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 28
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Poisons all enemies.
+  element_set: []
+
+  hit: 60
+  icon_index: 113
+  id: 15
+  ignore_defense: false
+  message1: " blows the Poison Breath!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Poison Breath
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 2
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 31
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Poisons all enemies.
+  element_set: []
+
+  hit: 80
+  icon_index: 113
+  id: 16
+  ignore_defense: false
+  message1: " blows the Deadly Poison!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Deadly Poison
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 2
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 51
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Blinds all enemies.
+  element_set: []
+
+  hit: 60
+  icon_index: 114
+  id: 17
+  ignore_defense: false
+  message1: " blows up the Sand Dust!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Sand Dust
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 3
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 51
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Blinds all enemies.
+  element_set: []
+
+  hit: 80
+  icon_index: 114
+  id: 18
+  ignore_defense: false
+  message1: " flashes Dazzling Light!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Dazzling Light
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 3
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 31
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Silences all enemies.
+  element_set: []
+
+  hit: 60
+  icon_index: 115
+  id: 19
+  ignore_defense: false
+  message1: " rains the Uncanny Fog!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Uncanny Fog
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 4
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 32
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Silences all enemies.
+  element_set: []
+
+  hit: 80
+  icon_index: 115
+  id: 20
+  ignore_defense: false
+  message1: " sings the Silence Song!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Silence Song
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 4
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 30
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Confuses all enemies.
+  element_set: []
+
+  hit: 40
+  icon_index: 116
+  id: 21
+  ignore_defense: false
+  message1: " shoots Supersonic wave!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Supersonic
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 5
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 32
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Confuses all enemies.
+  element_set: []
+
+  hit: 60
+  icon_index: 116
+  id: 22
+  ignore_defense: false
+  message1: " sings the Temptation Song!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Temptation Song
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 5
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 54
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Sleeps all enemies.
+  element_set: []
+
+  hit: 60
+  icon_index: 117
+  id: 23
+  ignore_defense: false
+  message1: " blows the Sweet Breath!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Sweet Breath
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 6
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 29
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Sleeps all enemies.
+  element_set: []
+
+  hit: 80
+  icon_index: 117
+  id: 24
+  ignore_defense: false
+  message1: " sheds the Sleep Pollen!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Sleep Pollen
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 6
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 28
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Paralyzes all enemies.
+  element_set: []
+
+  hit: 60
+  icon_index: 118
+  id: 25
+  ignore_defense: false
+  message1: " blows the Paralysis Breath!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Paralysis Breath
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 7
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 55
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Paralyzes all enemies.
+  element_set: []
+
+  hit: 80
+  icon_index: 118
+  id: 26
+  ignore_defense: false
+  message1: " stares by sharp eyes!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Paralysis Glare
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 7
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 35
+  atk_f: 10
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Adds stunn status to your physical attack.
+  element_set: []
+
+  hit: 70
+  icon_index: 119
+  id: 27
+  ignore_defense: false
+  message1: " does Leg Sweep!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Leg Sweep
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: 
+  - 8
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 36
+  atk_f: 80
+  base_damage: 1
+  common_event_id: 0
+  damage_to_mp: false
+  description: Adds stun status to your physical attack.
+  element_set: []
+
+  hit: 70
+  icon_index: 119
+  id: 28
+  ignore_defense: false
+  message1: " does Body Attack!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Body Attack
+  note: ""
+  occasion: 1
+  physical_attack: true
+  plus_state_set: 
+  - 8
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 34
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Stuns all enemies.
+  element_set: []
+
+  hit: 50
+  icon_index: 119
+  id: 29
+  ignore_defense: false
+  message1: " dose warcry!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: warcry
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 8
+  scope: 2
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: true
+  animation_id: 49
+  atk_f: 80
+  base_damage: 200
+  common_event_id: 0
+  damage_to_mp: false
+  description: Absorbs HP from one enemy.
+  element_set: []
+
+  hit: 100
+  icon_index: 136
+  id: 30
+  ignore_defense: false
+  message1: " sucks blood!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Vampirism
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: -500
+  common_event_id: 0
+  damage_to_mp: false
+  description: Restores small amount HP of one character.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 31
+  ignore_defense: false
+  message1: " starts meditating."
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Meditation/Weak
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 39
+  atk_f: 0
+  base_damage: -2000
+  common_event_id: 0
+  damage_to_mp: false
+  description: Restores HP of one character.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 32
+  ignore_defense: false
+  message1: " starts meditating."
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 0
+  name: Meditation/Strong
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 7
+  speed: 0
+  spi_f: 0
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: -250
+  common_event_id: 0
+  damage_to_mp: false
+  description: Restores HP of one character.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 33
+  ignore_defense: false
+  message1: " casts Heal!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 4
+  name: Heal
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 7
+  speed: 0
+  spi_f: 10
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: -1000
+  common_event_id: 0
+  damage_to_mp: false
+  description: Restores HP of one character.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 34
+  ignore_defense: false
+  message1: " casts Heal II!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 8
+  name: Heal II
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 7
+  speed: 0
+  spi_f: 10
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: -4000
+  common_event_id: 0
+  damage_to_mp: false
+  description: Restores HP of one character.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 35
+  ignore_defense: false
+  message1: " casts Heal III!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 16
+  name: Heal III
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 7
+  speed: 0
+  spi_f: 10
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: -500
+  common_event_id: 0
+  damage_to_mp: false
+  description: Restores HP of each party member.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 36
+  ignore_defense: false
+  message1: " casts Recover!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 12
+  name: Recover
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 8
+  speed: 0
+  spi_f: 10
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: -2000
+  common_event_id: 0
+  damage_to_mp: false
+  description: Restores HP of each party member.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 37
+  ignore_defense: false
+  message1: " casts Recover II!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 24
+  name: Recover II
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 8
+  speed: 0
+  spi_f: 10
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 37
+  atk_f: 0
+  base_damage: -200
+  common_event_id: 0
+  damage_to_mp: false
+  description: Restores HP of user.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 38
+  ignore_defense: false
+  message1: " casts Self Recovery!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 6
+  name: Self Recovery
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 11
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 40
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Cures poison or paralysis.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 39
+  ignore_defense: false
+  message1: " casts Cure!"
+  message2: ""
+  minus_state_set: 
+  - 2
+  - 7
+  mp_cost: 3
+  name: Cure
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 7
+  speed: 0
+  spi_f: 10
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 41
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Cures ally of all status ailments.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 40
+  ignore_defense: false
+  message1: " casts Cure II!"
+  message2: ""
+  minus_state_set: 
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  mp_cost: 8
+  name: Cure II
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 7
+  speed: 0
+  spi_f: 10
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 42
+  atk_f: 0
+  base_damage: -100
+  common_event_id: 0
+  damage_to_mp: false
+  description: Revives one character from KO.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 41
+  ignore_defense: false
+  message1: " casts Raise!"
+  message2: ""
+  minus_state_set: 
+  - 1
+  mp_cost: 15
+  name: Raise
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 9
+  speed: 0
+  spi_f: 50
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 42
+  atk_f: 0
+  base_damage: -4000
+  common_event_id: 0
+  damage_to_mp: false
+  description: Revives one character from KO and restores a full amount of HP.
+  element_set: []
+
+  hit: 100
+  icon_index: 128
+  id: 42
+  ignore_defense: false
+  message1: " casts Raise II!"
+  message2: ""
+  minus_state_set: 
+  - 1
+  mp_cost: 35
+  name: Raise II
+  note: ""
+  occasion: 0
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 9
+  speed: 0
+  spi_f: 10
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 50
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Poisons all enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 113
+  id: 43
+  ignore_defense: false
+  message1: " casts Poison!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 2
+  name: Poison
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 2
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 51
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Darkens all enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 114
+  id: 44
+  ignore_defense: false
+  message1: " casts Blind!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 3
+  name: Blind
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 3
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 52
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Silences all enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 115
+  id: 45
+  ignore_defense: false
+  message1: " casts Silence!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 4
+  name: Silence
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 4
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 53
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Confuses all enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 116
+  id: 46
+  ignore_defense: false
+  message1: " casts Confusion!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 5
+  name: Confusion
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 5
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 54
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Sleeps all enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 117
+  id: 47
+  ignore_defense: false
+  message1: " casts Sleep!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 6
+  name: Sleep
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 6
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 55
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Paralyzes all enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 118
+  id: 48
+  ignore_defense: false
+  message1: " casts Paralysis!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 7
+  name: Paralysis
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 7
+  scope: 1
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 43
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Raises ally's strength.
+  element_set: []
+
+  hit: 100
+  icon_index: 120
+  id: 49
+  ignore_defense: false
+  message1: " casts Weapon Bless!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 9
+  name: Weapon Bless
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 9
+  scope: 7
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 43
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Raises ally's defense.
+  element_set: []
+
+  hit: 100
+  icon_index: 121
+  id: 50
+  ignore_defense: false
+  message1: " casts Armor Bless!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 8
+  name: Armor Bless
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 10
+  scope: 7
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 43
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Raises ally's mind.
+  element_set: []
+
+  hit: 100
+  icon_index: 122
+  id: 51
+  ignore_defense: false
+  message1: " casts Spirit Bless!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 7
+  name: Spirit Bless
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 11
+  scope: 7
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 43
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Raises ally's agility.
+  element_set: []
+
+  hit: 100
+  icon_index: 123
+  id: 52
+  ignore_defense: false
+  message1: " casts Quick Move!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 6
+  name: Quick Move
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 12
+  scope: 7
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 45
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Lowers opponent's strength.
+  element_set: []
+
+  hit: 100
+  icon_index: 124
+  id: 53
+  ignore_defense: false
+  message1: " casts Weapon Curse!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 9
+  name: Weapon Curse
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 13
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 45
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Lowers opponent's defense.
+  element_set: []
+
+  hit: 100
+  icon_index: 125
+  id: 54
+  ignore_defense: false
+  message1: " casts Armor Curse!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 8
+  name: Armor Curse
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 14
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 45
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Lowers opponent's mind.
+  element_set: []
+
+  hit: 100
+  icon_index: 126
+  id: 55
+  ignore_defense: false
+  message1: " casts Spirit Curse!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 7
+  name: Spirit Curse
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 15
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 45
+  atk_f: 0
+  base_damage: 0
+  common_event_id: 0
+  damage_to_mp: false
+  description: Lowers opponent's agility.
+  element_set: []
+
+  hit: 100
+  icon_index: 127
+  id: 56
+  ignore_defense: false
+  message1: " casts Slow Move!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 6
+  name: Slow Move
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: 
+  - 16
+  scope: 2
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: true
+  animation_id: 46
+  atk_f: 0
+  base_damage: 250
+  common_event_id: 0
+  damage_to_mp: false
+  description: Absorb HP from one enemy.
+  element_set: 
+  - 8
+  hit: 100
+  icon_index: 136
+  id: 57
+  ignore_defense: false
+  message1: " casts Life Drain!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 10
+  name: Life Drain
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: 0
+  spi_f: 100
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: true
+  animation_id: 46
+  atk_f: 0
+  base_damage: 50
+  common_event_id: 0
+  damage_to_mp: true
+  description: Absorb MP from one enemy.
+  element_set: 
+  - 7
+  - 8
+  hit: 100
+  icon_index: 136
+  id: 58
+  ignore_defense: false
+  message1: " casts Mana Drain!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 10
+  name: Mana Drain
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: 0
+  spi_f: 20
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 57
+  atk_f: 0
+  base_damage: 150
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals fire damage to one enemy.
+  element_set: 
+  - 9
+  hit: 100
+  icon_index: 104
+  id: 59
+  ignore_defense: false
+  message1: " casts Fire!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 4
+  name: Fire
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 58
+  atk_f: 0
+  base_damage: 400
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals fire damage to one enemy.
+  element_set: 
+  - 9
+  hit: 100
+  icon_index: 104
+  id: 60
+  ignore_defense: false
+  message1: " casts Fire II!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 12
+  name: Fire II
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -5
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 59
+  atk_f: 0
+  base_damage: 150
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals fire damage to all enemies.
+  element_set: 
+  - 9
+  hit: 100
+  icon_index: 104
+  id: 61
+  ignore_defense: false
+  message1: " casts Flame!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 8
+  name: Flame
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -10
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 60
+  atk_f: 0
+  base_damage: 400
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals fire damage to all enemies.
+  element_set: 
+  - 9
+  hit: 100
+  icon_index: 104
+  id: 62
+  ignore_defense: false
+  message1: " casts Flame II!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 24
+  name: Flame II
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -20
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 61
+  atk_f: 0
+  base_damage: 150
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals ice damage to one enemy.
+  element_set: 
+  - 10
+  hit: 100
+  icon_index: 105
+  id: 63
+  ignore_defense: false
+  message1: " casts Ice!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 4
+  name: Ice
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 62
+  atk_f: 0
+  base_damage: 400
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals ice damage to one enemy.
+  element_set: 
+  - 10
+  hit: 100
+  icon_index: 105
+  id: 64
+  ignore_defense: false
+  message1: " casts Ice II!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 12
+  name: Ice II
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -5
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 63
+  atk_f: 0
+  base_damage: 150
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals ice damage to all enemies.
+  element_set: 
+  - 10
+  hit: 100
+  icon_index: 105
+  id: 65
+  ignore_defense: false
+  message1: " casts Blizzard!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 8
+  name: Blizzard
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -10
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 64
+  atk_f: 0
+  base_damage: 400
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals ice damage to all enemies.
+  element_set: 
+  - 10
+  hit: 100
+  icon_index: 105
+  id: 66
+  ignore_defense: false
+  message1: " casts Blizzard II!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 24
+  name: Blizzard II
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -20
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 65
+  atk_f: 0
+  base_damage: 200
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals lightning damage to one enemy.
+  element_set: 
+  - 11
+  hit: 100
+  icon_index: 106
+  id: 67
+  ignore_defense: false
+  message1: " casts Thunder!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 5
+  name: Thunder
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: 0
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 66
+  atk_f: 0
+  base_damage: 500
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals lightning damage to one enemy.
+  element_set: 
+  - 11
+  hit: 100
+  icon_index: 106
+  id: 68
+  ignore_defense: false
+  message1: " casts Thunder II!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 15
+  name: Thunder II
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -5
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 67
+  atk_f: 0
+  base_damage: 200
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals lightning damage to all enemies.
+  element_set: 
+  - 11
+  hit: 100
+  icon_index: 106
+  id: 69
+  ignore_defense: false
+  message1: " casts Spark!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 10
+  name: Spark
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -10
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 68
+  atk_f: 0
+  base_damage: 500
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals lightning damage to all enemies.
+  element_set: 
+  - 11
+  hit: 100
+  icon_index: 106
+  id: 70
+  ignore_defense: false
+  message1: " casts Spark II!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 30
+  name: Spark II
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -20
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 69
+  atk_f: 0
+  base_damage: 300
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals water damage to one enemy.
+  element_set: 
+  - 12
+  hit: 100
+  icon_index: 107
+  id: 71
+  ignore_defense: false
+  message1: " casts Water!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 6
+  name: Water
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -5
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 70
+  atk_f: 0
+  base_damage: 300
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals water damage to all enemies.
+  element_set: 
+  - 12
+  hit: 100
+  icon_index: 107
+  id: 72
+  ignore_defense: false
+  message1: " casts Wave!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 18
+  name: Wave
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -15
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 71
+  atk_f: 0
+  base_damage: 300
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals stone damage to one enemy.
+  element_set: 
+  - 13
+  hit: 100
+  icon_index: 108
+  id: 73
+  ignore_defense: false
+  message1: " casts Stone!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 6
+  name: Stone
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -5
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 72
+  atk_f: 0
+  base_damage: 300
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals stone damage to all enemies.
+  element_set: 
+  - 13
+  hit: 100
+  icon_index: 108
+  id: 74
+  ignore_defense: false
+  message1: " casts Quake!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 18
+  name: Quake
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -15
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 73
+  atk_f: 0
+  base_damage: 300
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals wind damage to one enemy.
+  element_set: 
+  - 14
+  hit: 100
+  icon_index: 109
+  id: 75
+  ignore_defense: false
+  message1: " casts Wind!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 6
+  name: Wind
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -5
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 74
+  atk_f: 0
+  base_damage: 300
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals wind damage to all enemies.
+  element_set: 
+  - 14
+  hit: 100
+  icon_index: 109
+  id: 76
+  ignore_defense: false
+  message1: " casts Tornado!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 18
+  name: Tornado
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -15
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 75
+  atk_f: 0
+  base_damage: 400
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals holy damage to one enemy.
+  element_set: 
+  - 15
+  hit: 100
+  icon_index: 110
+  id: 77
+  ignore_defense: false
+  message1: " casts Saint!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 10
+  name: Saint
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -10
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 76
+  atk_f: 0
+  base_damage: 400
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals holy damage to all enemies.
+  element_set: 
+  - 15
+  hit: 100
+  icon_index: 110
+  id: 78
+  ignore_defense: false
+  message1: " casts Starlight!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 40
+  name: Starlight
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -30
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 77
+  atk_f: 0
+  base_damage: 400
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals dark damage to one enemy.
+  element_set: 
+  - 16
+  hit: 100
+  icon_index: 111
+  id: 79
+  ignore_defense: false
+  message1: " casts Shade!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 10
+  name: Shade
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -10
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 78
+  atk_f: 0
+  base_damage: 400
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals dark damage to all enemies.
+  element_set: 
+  - 16
+  hit: 100
+  icon_index: 111
+  id: 80
+  ignore_defense: false
+  message1: " casts Darkness!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 40
+  name: Darkness
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -30
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 79
+  atk_f: 0
+  base_damage: 300
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals non-elemental damage to one enemy.
+  element_set: []
+
+  hit: 100
+  icon_index: 135
+  id: 81
+  ignore_defense: true
+  message1: " casts Burst!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 15
+  name: Burst
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 1
+  speed: -20
+  spi_f: 30
+  variance: 20
+- !ruby/object:RPG::Skill 
+  absorb_damage: false
+  animation_id: 80
+  atk_f: 0
+  base_damage: 300
+  common_event_id: 0
+  damage_to_mp: false
+  description: Deals non-elemental damage to all enemies.
+  element_set: []
+
+  hit: 100
+  icon_index: 135
+  id: 82
+  ignore_defense: true
+  message1: " casts Newclear!"
+  message2: ""
+  minus_state_set: []
+
+  mp_cost: 60
+  name: Newclear
+  note: ""
+  occasion: 1
+  physical_attack: false
+  plus_state_set: []
+
+  scope: 2
+  speed: -40
+  spi_f: 30
+  variance: 20

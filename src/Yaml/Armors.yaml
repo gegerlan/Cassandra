@@ -1,0 +1,633 @@
+--- 
+root: 
+- 
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 2
+  description: A shield made from layers of animal skins.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 1
+  half_mp_cost: false
+  icon_index: 52
+  id: 1
+  kind: 0
+  name: Leather Shield
+  note: ""
+  prevent_critical: false
+  price: 150
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 4
+  description: A shield covered with small pieces of metal, arranged like scales.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 2
+  half_mp_cost: false
+  icon_index: 52
+  id: 2
+  kind: 0
+  name: Scale Shield
+  note: ""
+  prevent_critical: false
+  price: 680
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 7
+  description: A shield that halves Fire-based damage.
+  double_exp_gain: false
+  element_set: 
+  - 9
+  eva: 3
+  half_mp_cost: false
+  icon_index: 52
+  id: 3
+  kind: 0
+  name: Frame Shield
+  note: ""
+  prevent_critical: false
+  price: 2800
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 7
+  description: A shield that halves Ice-based damage.
+  double_exp_gain: false
+  element_set: 
+  - 10
+  eva: 3
+  half_mp_cost: false
+  icon_index: 52
+  id: 4
+  kind: 0
+  name: Ice Shield
+  note: ""
+  prevent_critical: false
+  price: 2800
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 12
+  description: A shield made from the magical metal known as mithril silver.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 4
+  half_mp_cost: false
+  icon_index: 52
+  id: 5
+  kind: 0
+  name: Mithril Shield
+  note: ""
+  prevent_critical: false
+  price: 6000
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 18
+  description: A shield made from dragon scales.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 5
+  half_mp_cost: false
+  icon_index: 52
+  id: 6
+  kind: 0
+  name: Dragon Shield
+  note: ""
+  prevent_critical: false
+  price: 12000
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 3
+  description: A light hat with decorative wings attached.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 34
+  id: 7
+  kind: 1
+  name: Feathered Hat
+  note: ""
+  prevent_critical: false
+  price: 120
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 6
+  description: A hood made of a fine chain mesh.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 32
+  id: 8
+  kind: 1
+  name: Chain Coif
+  note: ""
+  prevent_critical: false
+  price: 770
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 10
+  description: A helmet fashioned from sturdy iron plates.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 32
+  id: 9
+  kind: 1
+  name: Iron Helm
+  note: ""
+  prevent_critical: false
+  price: 2800
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 12
+  description: A headdress that has been blessed with defensive magic.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 33
+  id: 10
+  kind: 1
+  name: Circlet
+  note: ""
+  prevent_critical: false
+  price: 5500
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 16
+  description: A helmet made from the magical metal known as mithril silver.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 32
+  id: 11
+  kind: 1
+  name: Mithril Helm
+  note: ""
+  prevent_critical: false
+  price: 8700
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 22
+  description: A helmet fashioned from dragon scales.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 32
+  id: 12
+  kind: 1
+  name: Dragon Helm
+  note: ""
+  prevent_critical: false
+  price: 18000
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 2
+  description: A typical robe that one might find anywhere.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 43
+  id: 13
+  kind: 2
+  name: Robe
+  note: ""
+  prevent_critical: false
+  price: 90
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 4
+  description: A breastplate made from tanned leather.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 41
+  id: 14
+  kind: 2
+  name: Leather Breastplate
+  note: ""
+  prevent_critical: false
+  price: 250
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 8
+  description: Armor made up of countless interlocking metal rings.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 40
+  id: 15
+  kind: 2
+  name: Ring Mail
+  note: ""
+  prevent_critical: false
+  price: 520
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 10
+  description: A magical robe made of sturdy material.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 43
+  id: 16
+  kind: 2
+  name: Magic Robe
+  note: ""
+  prevent_critical: false
+  price: 1100
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 14
+  description: chainmail made by joining small fine metal chain together.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 40
+  id: 17
+  kind: 2
+  name: Chain Mail
+  note: ""
+  prevent_critical: false
+  price: 2100
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 15
+  description: These clothes are made of special material that makes them easy to move around in.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 30
+  half_mp_cost: false
+  icon_index: 45
+  id: 18
+  kind: 2
+  name: Mystic Cloth
+  note: ""
+  prevent_critical: false
+  price: 3000
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 20
+  description: Armor made of sturdy iron plates.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 40
+  id: 19
+  kind: 2
+  name: Iron Armour
+  note: ""
+  prevent_critical: false
+  price: 6200
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 25
+  description: A blessed robe filled with holy energy.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 43
+  id: 20
+  kind: 2
+  name: Saint Robe
+  note: ""
+  prevent_critical: false
+  price: 9900
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 30
+  description: A breastplate made from the magical metal known as mithril silver.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 42
+  id: 21
+  kind: 2
+  name: Mithril Breastplate
+  note: ""
+  prevent_critical: false
+  price: 15000
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 40
+  description: Armor made from dragon scales.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 40
+  id: 22
+  kind: 2
+  name: Dragon Mail
+  note: ""
+  prevent_critical: false
+  price: 27000
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 0
+  description: A ring that protects from Fire-based damage.
+  double_exp_gain: false
+  element_set: 
+  - 9
+  eva: 0
+  half_mp_cost: false
+  icon_index: 56
+  id: 23
+  kind: 3
+  name: Fire Ring
+  note: ""
+  prevent_critical: false
+  price: 1900
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 0
+  description: A ring that protects from Ice-based damage.
+  double_exp_gain: false
+  element_set: 
+  - 10
+  eva: 0
+  half_mp_cost: false
+  icon_index: 56
+  id: 24
+  kind: 3
+  name: Ice Ring
+  note: ""
+  prevent_critical: false
+  price: 1900
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 10
+  auto_hp_recover: false
+  def: 0
+  description: A bracelet that increases strength and protects against darkness.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 58
+  id: 25
+  kind: 3
+  name: Warrior Bracelet
+  note: ""
+  prevent_critical: false
+  price: 2500
+  spi: 0
+  state_set: 
+  - 3
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 0
+  description: A bracelet that increases mind and protects against silence.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 58
+  id: 26
+  kind: 3
+  name: Magician Bracelet
+  note: ""
+  prevent_critical: false
+  price: 3000
+  spi: 15
+  state_set: 
+  - 4
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 0
+  description: A charm that protects from critical hits.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 59
+  id: 27
+  kind: 3
+  name: Fortunate Necklace
+  note: ""
+  prevent_critical: true
+  price: 3500
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 20
+  atk: 0
+  auto_hp_recover: false
+  def: 0
+  description: Magical shoes that increase Agility and Evasion rate.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 5
+  half_mp_cost: false
+  icon_index: 48
+  id: 28
+  kind: 3
+  name: Fairy Shoes
+  note: ""
+  prevent_critical: false
+  price: 4000
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: true
+  def: 0
+  description: A ring that restores a small amount of HP automatically as time passes.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: false
+  icon_index: 57
+  id: 29
+  kind: 3
+  name: Life Ring
+  note: ""
+  prevent_critical: false
+  price: 6000
+  spi: 0
+  state_set: []
+
+- !ruby/object:RPG::Armor 
+  agi: 0
+  atk: 0
+  auto_hp_recover: false
+  def: 0
+  description: A ring that halves the amount of MP consumption.
+  double_exp_gain: false
+  element_set: []
+
+  eva: 0
+  half_mp_cost: true
+  icon_index: 57
+  id: 30
+  kind: 3
+  name: Sage's ring
+  note: ""
+  prevent_critical: false
+  price: 20000
+  spi: 0
+  state_set: []
+

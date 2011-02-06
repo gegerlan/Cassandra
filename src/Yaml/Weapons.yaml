@@ -1,0 +1,634 @@
+--- 
+root: 
+- 
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 19
+  atk: 3
+  critical_bonus: false
+  def: 0
+  description: A simple wooden club.
+  dual_attack: false
+  element_set: 
+  - 4
+  fast_attack: false
+  hit: 95
+  icon_index: 14
+  id: 1
+  name: Club
+  note: ""
+  price: 40
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 5
+  critical_bonus: false
+  def: 0
+  description: A typical mass-produced longsword.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 2
+  id: 2
+  name: Long Sword
+  note: ""
+  price: 70
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 6
+  critical_bonus: false
+  def: 0
+  description: A typical mass-produced spear.
+  dual_attack: false
+  element_set: 
+  - 3
+  fast_attack: false
+  hit: 95
+  icon_index: 4
+  id: 3
+  name: Long Spear
+  note: ""
+  price: 110
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 8
+  critical_bonus: false
+  def: 0
+  description: A typical mass-produced bow.
+  dual_attack: false
+  element_set: 
+  - 5
+  fast_attack: false
+  hit: 97
+  icon_index: 16
+  id: 4
+  name: Long Bow
+  note: ""
+  price: 220
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 19
+  atk: 9
+  critical_bonus: false
+  def: 0
+  description: A whip made from strips of tanned animal skin.
+  dual_attack: false
+  element_set: 
+  - 6
+  fast_attack: false
+  hit: 95
+  icon_index: 12
+  id: 5
+  name: Leather Whip
+  note: ""
+  price: 250
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 10
+  critical_bonus: false
+  def: 0
+  description: An ordinary broadsword.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 2
+  id: 6
+  name: Broad Sword
+  note: ""
+  price: 290
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 1
+  atk: 10
+  critical_bonus: false
+  def: 0
+  description: Fighting claws made from steel.
+  dual_attack: false
+  element_set: 
+  - 1
+  fast_attack: false
+  hit: 95
+  icon_index: 11
+  id: 7
+  name: Iron Claw
+  note: ""
+  price: 350
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 19
+  atk: 12
+  critical_bonus: false
+  def: 0
+  description: A simple striking weapon made of metal.
+  dual_attack: false
+  element_set: 
+  - 4
+  fast_attack: false
+  hit: 95
+  icon_index: 18
+  id: 8
+  name: Mace
+  note: ""
+  price: 460
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 15
+  critical_bonus: false
+  def: 0
+  description: A three-pronged weapon created from a farming tool.
+  dual_attack: false
+  element_set: 
+  - 3
+  fast_attack: false
+  hit: 95
+  icon_index: 5
+  id: 9
+  name: Trident
+  note: ""
+  price: 670
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 18
+  critical_bonus: false
+  def: 0
+  description: This two-handed sword is rather easy to use.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 2
+  id: 10
+  name: Bastard Sword
+  note: ""
+  price: 920
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 20
+  critical_bonus: false
+  def: 0
+  description: A bow made of reinforced animal sinews.
+  dual_attack: false
+  element_set: 
+  - 5
+  fast_attack: false
+  hit: 97
+  icon_index: 16
+  id: 11
+  name: Wrapped Bow
+  note: ""
+  price: 1200
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 22
+  critical_bonus: false
+  def: 0
+  description: An ancestor of this battle axe was used for chopping wood.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 6
+  id: 12
+  name: Battle Axe
+  note: ""
+  price: 1700
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 26
+  critical_bonus: false
+  def: 0
+  description: A two-handed sword made with an emphasis on cutting down enemies.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 2
+  id: 13
+  name: Claymore
+  note: ""
+  price: 2100
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 28
+  critical_bonus: false
+  def: 0
+  description: This spear can be used for both piercing and hitting enemies.
+  dual_attack: false
+  element_set: 
+  - 2
+  - 3
+  fast_attack: false
+  hit: 95
+  icon_index: 4
+  id: 14
+  name: Halberd
+  note: ""
+  price: 2800
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 19
+  atk: 28
+  critical_bonus: false
+  def: 0
+  description: A striking weapon consisting of an iron ball attached to a rod with a length of chain.
+  dual_attack: false
+  element_set: 
+  - 4
+  fast_attack: false
+  hit: 95
+  icon_index: 15
+  id: 15
+  name: Flail
+  note: ""
+  price: 3800
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 34
+  critical_bonus: false
+  def: 0
+  description: A two-handed sword with a blade that waves like a flame.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 2
+  id: 16
+  name: Flamberge
+  note: ""
+  price: 4700
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 42
+  critical_bonus: false
+  def: 0
+  description: A weapon that can shoot arrows more powerful than other bows.
+  dual_attack: false
+  element_set: 
+  - 5
+  fast_attack: false
+  hit: 97
+  icon_index: 24
+  id: 17
+  name: Crossbow
+  note: ""
+  price: 6000
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 19
+  atk: 44
+  critical_bonus: false
+  def: 0
+  description: A mace with a spiked ball on its end.
+  dual_attack: false
+  element_set: 
+  - 4
+  fast_attack: false
+  hit: 95
+  icon_index: 18
+  id: 18
+  name: Morning star
+  note: ""
+  price: 7800
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 1
+  atk: 50
+  critical_bonus: false
+  def: 0
+  description: Claws made of the magical metal known as mithril silver.
+  dual_attack: false
+  element_set: 
+  - 1
+  fast_attack: false
+  hit: 95
+  icon_index: 11
+  id: 19
+  name: Mithril Claw
+  note: ""
+  price: 9000
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 56
+  critical_bonus: false
+  def: 0
+  description: A spear made of the magical metal known as mithril silver.
+  dual_attack: false
+  element_set: 
+  - 3
+  fast_attack: false
+  hit: 95
+  icon_index: 4
+  id: 20
+  name: Mithril Spear
+  note: ""
+  price: 9900
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 60
+  critical_bonus: false
+  def: 0
+  description: A one-handed sword made of the magical metal known as mithril silver.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 2
+  id: 21
+  name: Mithril Blade
+  note: ""
+  price: 12000
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 19
+  atk: 58
+  critical_bonus: false
+  def: 0
+  description: A magic staff that emits a golden glow.
+  dual_attack: false
+  element_set: []
+
+  fast_attack: false
+  hit: 95
+  icon_index: 20
+  id: 22
+  name: Golden Staff
+  note: ""
+  price: 16000
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 68
+  critical_bonus: false
+  def: 0
+  description: A powerful battle axe with a long handle.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 6
+  id: 23
+  name: Great Axe
+  note: ""
+  price: 15000
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 76
+  critical_bonus: false
+  def: 0
+  description: A more advanced and easier-to-use crossbow.
+  dual_attack: false
+  element_set: 
+  - 5
+  fast_attack: false
+  hit: 97
+  icon_index: 24
+  id: 24
+  name: Great Crossbow
+  note: ""
+  price: 20000
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 19
+  atk: 77
+  critical_bonus: false
+  def: 0
+  description: The magic encased in this staff generates powerful shockwaves.
+  dual_attack: false
+  element_set: []
+
+  fast_attack: false
+  hit: 95
+  icon_index: 21
+  id: 25
+  name: Wizard Rod
+  note: ""
+  price: 25000
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 19
+  atk: 85
+  critical_bonus: false
+  def: 0
+  description: A whip made from dragon whiskers.
+  dual_attack: false
+  element_set: 
+  - 6
+  fast_attack: false
+  hit: 95
+  icon_index: 12
+  id: 26
+  name: Dragon Whip
+  note: ""
+  price: 22000
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 13
+  atk: 90
+  critical_bonus: false
+  def: 0
+  description: A spear made from dragon scales.
+  dual_attack: false
+  element_set: 
+  - 3
+  fast_attack: false
+  hit: 95
+  icon_index: 4
+  id: 27
+  name: Dragon Spear
+  note: ""
+  price: 24000
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 1
+  atk: 92
+  critical_bonus: false
+  def: 0
+  description: A martial artist's weapon made from dragon claws.
+  dual_attack: false
+  element_set: 
+  - 1
+  fast_attack: false
+  hit: 95
+  icon_index: 11
+  id: 28
+  name: Dragon Claw
+  note: ""
+  price: 28000
+  spi: 0
+  state_set: []
+
+  two_handed: true
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 100
+  critical_bonus: false
+  def: 0
+  description: A one-handed sword made from dragon scales.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 2
+  id: 29
+  name: Dragon Sword
+  note: ""
+  price: 30000
+  spi: 0
+  state_set: []
+
+  two_handed: false
+- !ruby/object:RPG::Weapon 
+  agi: 0
+  animation_id: 7
+  atk: 120
+  critical_bonus: false
+  def: 0
+  description: A legendary sword that only a true hero can wield.
+  dual_attack: false
+  element_set: 
+  - 2
+  fast_attack: false
+  hit: 95
+  icon_index: 26
+  id: 30
+  name: King's Sword
+  note: ""
+  price: 65000
+  spi: 0
+  state_set: []
+
+  two_handed: false
